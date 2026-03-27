@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+.r1{
+  display:grid;
+  width: 60%;
+  margin-left:200px;
+  margin-top: 20px;
+  font-size: xx-large;
+   }
+</style>
+<body>
+      <h1 style="text-align: center;"><mark><i>MARK SHEET</i></mark></h1>
+ <form action="">
+ <div class="r1">
+    <div style="font-size:xx-large;"><label for=""><i>Name</i></label>
+    <input type="text" id="d1"></div><br>
+    <label for="english">English</label>
+      <input type="number"id="d2"><br>
+      <label for="tamil">Tamil</label>
+       <input type="number"id="d3"><br>
+      <label for="">Maths</label>
+       <input type="number"id="d4"><br>
+       <label for="">Science</label>
+       <input type="number"id="d5"><br>
+       <label for="">Social</label>
+       <input type="number"id="d6"><br>
+       <label for="">Total</label>
+       <input type="number" id="d7">
+     <div>  <input type="submit" onclick="sample()"><br></div>
+       </div>
+       </form>
+    
+
+    
+   
+</body>
+<script>
+      function example(){
+        var a=document.getElementById("r1").value
+        document.write()
+      }   
+
+  document.getElementById("d1").value="gowtham"
+  document.getElementById("d2").value="3"
+  document.getElementById("d3").value="2"
+  document.getElementById("d4").value="1"
+  document.getElementById("d5").value="1"
+  document.getElementById("d6").value="3"
+     var x=3
+     let y=2
+     var z=1
+     var a=1
+     var b=3
+     document.getElementById("d7").value=x+y+z+a+b
+     
+    function sample(){ 
+     
+     
+      if(x<=35){
+        
+        var b=document.getElementById("d1").value="Gowtham you are"
+        
+        var a=document.getElementById("d2").value="   FAIL"
+     document.write(b)
+     
+     document.write(a)
+      }
+       if(y<=35){
+         var a=document.getElementById("d3").value=" FAIL"
+     document.write(a)
+      }
+       if(z<=35){
+         var a=document.getElementById("d4").value=" FAIL"
+     document.write(a)
+      }
+       if(a<=35){
+         var a=document.getElementById("d5").value=" FAIL"
+     document.write(a)
+      }
+       if(b<=35){
+         var a=document.getElementById("d6").value=" FAIL"
+     document.write(a)
+      }
+     if(x+y+z+a+b<=35){
+     var a=document.getElementById("d7").value=" FAIL"
+     document.write(a)
+     } 
+      else{
+     var a=document.getElementById("d7").value= " PASS"
+     document.write(a)
+     } 
+     }
+     
+    
+     
+ 
+     
+</script>
+</html>

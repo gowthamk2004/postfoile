@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    .main{
+         display: grid;
+          grid-template-columns: auto auto ;
+          padding: 180px;
+    }
+    .fa-house{
+        width: 350px;
+        height: 350px;
+        background-color: aqua;
+        border-color: black;
+        border-style: solid;
+        transform: scaley(70px);
+        transform: rotate(180deg);
+        transition: width 2s height 2s background-color 2s;
+        margin: 200px;
+        transition-duration: 2s;
+       
+    }
+    .fa-house:hover{
+      width: 400px;
+      height: 400px;
+      background-color: red;
+    }
+  
+    
+   
+    .try{
+       width: 400px;
+  height:400px;
+
+   background-image : url(sample.jpg);
+   background-size: cover;
+   
+  transition: width 2s, height 2s, background-color 3s transform 2s;
+   margin: 200px;
+   margin-top: px;
+   border-style: solid;
+   border-color: black;
+   transition-duration: 2s;
+   
+    }
+    .try:hover{
+        width: 700px;
+        height: 700px;
+        background-color: blueviolet;
+        transform: rotate(180deg);
+               transition-delay: 1s;
+    }
+    
+    
+
+            
+        
+    
+ 
+
+</style>
+<body>
+    <div class="main">
+   <div><i style="font-size: 300px;"  class="fa-regular fa-house"></i></div><br>
+
+
+<div class="try"></div>
+</div>
+    
+</body>
+</html>
